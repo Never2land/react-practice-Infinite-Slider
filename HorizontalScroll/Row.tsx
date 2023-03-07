@@ -10,9 +10,9 @@ const Row = () => {
   const playingRef = useRef(playing);
   const speed = 60;
 
-  React.useEffect(() => {
-    playingRef.current = playing;
-  }, [playing]);
+  // React.useEffect(() => {
+  //   playingRef.current = playing;
+  // }, [playing]);
 
   useEffect(() => {
     const pixelsPerFrame = speed / 60;
